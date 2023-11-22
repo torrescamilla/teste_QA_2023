@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-import Inscricao from '../../support/Page/Einscricao'
+import Inscricao from '../../support/pages/Einscricao'
 
 it('Acessar aplicação E-Inscrição', function () {
     Inscricao.acessarURLeInscricao()

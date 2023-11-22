@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-import Formulario from '../../support/Page/Tricentis'
+import Formulario from '../../support/pages/Tricentis'
 
 it('Acessar aplicação Tricentis', function () {
     Formulario.acessarURL()
