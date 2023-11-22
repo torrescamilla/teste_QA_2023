@@ -17,7 +17,7 @@
 
 ## 🔖&nbsp; Sobre
 
-O projeto **Teste_QA_2023** Teste end-to-end simulando um usuário realizando inscrição em um evento utilizando a aplicação E-Inscrição. Bem como teste end-to-end simulando usuário preenchendo formulário na aplicação de seguros Tricentis.
+O projeto **Teste_QA_2023** trata-se de um teste que possui duas etapas: A primeira é um teste end-to-end simulando um usuário realizando inscrição em um evento, utilizando a aplicação E-Inscrição. A segunda também se trata de um teste end-to-end simulando usuário preenchendo o formulário de seguros, utilizando o website Tricentis.
 
 ---
 
@@ -28,7 +28,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [Cypress](https://www.cypress.io/)
 - [VsCode](https://code.visualstudio.com/)
 - [NodeJs](https://nodejs.org/en)
-- [Java Script](https://github.com/axios/axios)
+- [Java Script](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ---
 
@@ -95,4 +95,4 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ---
 
-Desenvolvido por Camilla Torres de Jesus
+Desenvolvido por Camilla Torres de Jesus.
