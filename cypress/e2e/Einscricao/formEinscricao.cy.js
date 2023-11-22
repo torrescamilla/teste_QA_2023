@@ -12,6 +12,12 @@ it('Adicionando ticket', function () {
     Inscricao.adicionarTicket()
 })
 
+it('Ver Detalhes', function () {
+    Inscricao.acessarURLeInscricao()
+    Inscricao.verDetalhes()
+    Inscricao.ocultarDetalhes()
+})
+
 it('Criar conta e utilizar participante cadastrado', function () {
     Inscricao.acessarURLeInscricao()
     Inscricao.adicionarTicket()

@@ -14,11 +14,19 @@ Caso de Teste: Acessar aplicação E-Inscrição.
     When criado o projeto do teste no VsCode e o mesmo automatizado na ide Cypress
     Then ao acessar o link disponibilizado, a tela da página E-Inscrição é apresentada com sucesso.
 
- Caso de Teste: Adicionando ticket.
+ Caso de Teste: Adicionando pedido.
 
 	Given que estou na página E- Inscrição 
 	When adiciono um ticket e clico em Continuar
 	Then sistema me redireciona para tela de check-out
+
+Caso de Teste: Validar funcionalidade dos botões "Ver Detalhes" e "Ocultar Detalhes" na tela de adicionar pedido.
+
+	Given que estou na página E- Inscrição 
+	And adiciono um ticket e clico em "Ver Detalhes"
+	When sistema apresenta detalhes do pedido 
+	And clico em "Ocultar Detalhes"
+	Then sistema oculta os detalhes do pedido
 
 
 Caso de Teste: Criar conta e utilizar participante cadastrado.

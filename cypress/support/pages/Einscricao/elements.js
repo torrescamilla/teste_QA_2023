@@ -3,6 +3,8 @@ export const ELEMENTS = {
     //TELA ADICIONAR TICKET//
     BTN_ADD_TICKET: "button[class$='MuiIconButton-colorSecondary']",
     BTN_CONTINUAR: "button[class$='MuiButton-fullWidth']",
+    BTN_VER_DETALHES: ".MuiTypography-subtitle1 > .MuiTypography-root",
+    BTN_OCULTAR_DETALHES: ".MuiTypography-subtitle1 > .MuiTypography-root",
 
     //TELA PRINCIPAL DA APLICAÇÃO//
     BTN_CRIAR_CONTA: "#root > div > div > div > div:nth-child(2) > a",

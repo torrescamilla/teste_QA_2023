@@ -9,11 +9,33 @@ class Inscricao {
         cy.title().should('be.equal', 'E-Inscrição')
     }
 
-    //função criada para adicionar um ticket de inscrição//
+    //função criada para adicionar um ticket de inscrição (pedido)//
     adicionarTicket() {
         cy.get(Form.BTN_ADD_TICKET).click()
         cy.get(Form.BTN_CONTINUAR).click()
         cy.contains('Crie sua conta para gerenciar suas ').should('be.visible')
+    }
+
+    //função criada para validar a funcionalidade do botão ver detalhes ao adicionar um pedido//
+    verDetalhes() {
+        cy.get(Form.BTN_ADD_TICKET).click()
+        cy.get(Form.BTN_VER_DETALHES).click()
+        cy.contains('Resumo do Pedido').should('be.visible')
+        cy.contains('Item').should('be.visible')
+        cy.contains('Preço').should('be.visible')
+        cy.contains('Qde').should('be.visible')
+        cy.contains('Subtotal').should('be.visible')
+    }
+
+    //função criada para validar a funcionalidade do botão ocultar detalhes ao adicionar um pedido //
+    ocultarDetalhes() {
+        cy.get(Form.BTN_OCULTAR_DETALHES).click()
+        cy.contains('Resumo do Pedido').should('not.exist')
+        cy.contains('Item').should('not.exist')
+        cy.contains('Preço').should('not.exist')
+        cy.contains('Qde').should('not.exist')
+        cy.contains('Subtotal').should('not.exist')
+        
     }
 
     //funçao criada para criar a conta de um novo usuário//

@@ -1,3 +1,52 @@
+
+<p align="center">
+ <picture>
+    <img alt="Cypress Logo" src="./assets/logo.png">
+  </picture> 
+</p>
+
+<h1 align="center">Teste QA 2023</h1>
+
+---
+
+# Indice
+
+- [Sobre](#-sobre)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
+
+## 🔖&nbsp; Sobre
+
+O projeto **RocketMusic** Teste end-to-end simulando um usuário realizando inscrição em um evento utilizando a aplicação E-Inscrição. Bem como teste end-to-end simulando usuário preenchendo formulário na aplicação de seguros Tricentis.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias
+
+- [Cypress](https://www.cypress.io/)
+- [VsCode](https://code.visualstudio.com/)
+- [NodeJs](https://nodejs.org/en)
+- [Java Script](https://github.com/axios/axios)
+
+---
+
+## 🗂 Como baixar o projeto
+
+```bash
+
+    # Clonar o repositório
+    $ git clone git@github.com:torrescamilla/teste_QA_2023.git
+
+    # Instalar Cypress e dependências no projeto
+    $ npm install cypress --save-dev
+
+    # Iniciar o Cypress
+    $ npx cypress open
+```
+
+
 <p align="center">
   <a href="https://www.cypress.io">
     <picture>
@@ -14,14 +63,14 @@
 </p>
 
 <h3 align="center">
-  The web has evolved. Finally, testing has too.
+  A web evoluiu. Finalmente, os testes também.
 </h3>
 
 <p align="center">
-  Fast, easy and reliable testing for anything that runs in a browser.
+   Testes rápidos, fáceis e confiáveis ​​para qualquer coisa executada em um navegador.
 </p>
 <p align="center">
-  Join us, we're <a href="https://cypress.io/jobs">hiring</a>.
+  Junte-se a nós, estamos <a href="https://cypress.io/jobs">hiring</a>.
 </p>
 
 <p align="center">
@@ -36,7 +85,7 @@
   </a><br />
 </p>
 
-## What is Cypress?
+## O que é Cypress?
 
 <p align="center">
   <a href="https://player.vimeo.com/video/237527670">
@@ -44,52 +93,6 @@
   </a>
 </p>
 
-## Installing
+---
 
-[![npm version](https://badge.fury.io/js/cypress.svg)](https://badge.fury.io/js/cypress)
-
-Install Cypress for Mac, Linux, or Windows, then [get started](https://on.cypress.io/install).
-
-```bash
-npm install cypress --save-dev
-```
-or
-```bash
-yarn add cypress --dev
-```
-
-![installing-cli e1693232](https://user-images.githubusercontent.com/1271364/31740846-7bf607f0-b420-11e7-855f-41c996040d31.gif)
-
-
-## Contributing
-
-[![cypress](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/simple/ypt4pf/develop&style=flat&logo=cypress)](https://cloud.cypress.io/projects/ypt4pf/runs)
-[![CircleCI](https://circleci.com/gh/cypress-io/cypress/tree/develop.svg?style=svg)](https://circleci.com/gh/cypress-io/cypress/tree/develop) -  `develop` branch
-
-Please see our [Contributing Guideline](./CONTRIBUTING.md) which explains repo organization, linting, testing, and other steps.
-
-## How we work
-
-At Cypress we value our community and strive to be as open and transparent with them as possible.  Check out [our guide](./cypress-prioritization-and-triage.md) on how we prioritize community issues.
-
-## License
-
-[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/cypress-io/cypress/blob/develop/LICENSE)
-
-This project is licensed under the terms of the [MIT license](/LICENSE).
-
-## Badges
-
-Configure a badge for your project's README to show your test status or test count in the [Cypress Cloud](https://www.cypress.io/cloud).
-
-[![cypress](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/simple/ypt4pf/develop&style=flat&logo=cypress)](https://cloud.cypress.io/projects/ypt4pf/runs)
-
-[![cypress](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/count/ypt4pf/develop&style=flat&logo=cypress)](https://cloud.cypress.io/projects/ypt4pf/runs)
-
-Or let the world know your project is using Cypress with the badge below.
-
-[![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
-
-```
-[![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
-```
+Desenvolvido por Camilla Torres de Jesus
