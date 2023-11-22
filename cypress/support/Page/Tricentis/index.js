@@ -42,7 +42,7 @@ class Formulario {
         cy.get(el.CHECKBOX_HOBBIES_1).check({ force: true }).should('have.value', 'BungeeJumping')
         cy.get(el.CHECKBOX_HOBBIES_2).check({ force: true }).should('have.value', 'Skydiving')
         cy.get(el.INP_WEBSITE).type('www.teste.com.br')
-        cy.get(el.PICTURE).should('not.have.value').selectFile('img.jpg', { force: true })
+        cy.get(el.PICTURE).should('not.have.value').selectFile('./cypress/fixtures/img.jpg', { force: true })
         cy.get(el.BTN_NEXT_ENTER_PRODUCT_DATA).click()
     }
 

@@ -6,7 +6,7 @@ it('Acessar aplicação Tricentis', function () {
     Formulario.acessarURL()
 })
 
-it('preencher todos os campos do formulário e enviar', function () {
+it.only('preencher todos os campos do formulário e enviar', function () {
     Formulario.acessarURL()
     Formulario.preencherEnterVehicleData()
     Formulario.preencherEnterInsurantData()
