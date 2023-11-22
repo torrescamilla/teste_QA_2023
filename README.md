@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)"  srcset="./assets/cypress-logo-dark.png">
       <source media="(prefers-color-scheme: light)" srcset="./assets/cypress-logo-light.png">
-      <img alt="Cypress Logo" src="../cypress/fixtures/cypress-logo-dark.png">
+      <img alt="Cypress Logo" src="../cypress/fixtures/cypress-logo-light.png">
     </picture>    
   </a>
 </p>
