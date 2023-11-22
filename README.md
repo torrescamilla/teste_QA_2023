@@ -32,21 +32,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ---
 
-## 🗂 Como baixar o projeto
-
-```bash
-
-    # Clonar o repositório
-    $ git clone git@github.com:torrescamilla/teste_QA_2023.git
-
-    # Instalar Cypress e dependências no projeto
-    $ npm install cypress --save-dev
-
-    # Iniciar o Cypress
-    $ npx cypress open
-```
-
-
 <p align="center">
   <a href="https://www.cypress.io">
     <picture>
@@ -92,6 +77,22 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     <img alt="Why Cypress Video" src="https://user-images.githubusercontent.com/1271364/31739717-dbdff0ee-b41c-11e7-9b16-bfa1b6ac1814.png" width="75%" height="75%" />
   </a>
 </p>
+
+---
+
+## 🗂 Como baixar o projeto
+
+```bash
+
+    # Clonar o repositório
+    $ git clone git@github.com:torrescamilla/teste_QA_2023.git
+
+    # Instalar Cypress e dependências no projeto
+    $ npm install cypress --save-dev
+
+    # Iniciar o Cypress
+    $ npx cypress open
+```
 
 ---
 
