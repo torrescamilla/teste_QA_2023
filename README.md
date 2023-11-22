@@ -17,7 +17,7 @@
 
 ## 🔖&nbsp; Sobre
 
-O projeto **RocketMusic** Teste end-to-end simulando um usuário realizando inscrição em um evento utilizando a aplicação E-Inscrição. Bem como teste end-to-end simulando usuário preenchendo formulário na aplicação de seguros Tricentis.
+O projeto **Teste_QA_2023** Teste end-to-end simulando um usuário realizando inscrição em um evento utilizando a aplicação E-Inscrição. Bem como teste end-to-end simulando usuário preenchendo formulário na aplicação de seguros Tricentis.
 
 ---
 
