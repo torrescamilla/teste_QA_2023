@@ -14,6 +14,8 @@
 - [Sobre](#-sobre)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
+- [Documentação Teste E-Inscrição](https://docs.google.com/document/d/1FYmOvAn3rJDSEeVlDjpzmuk5sO4EEe3HNefRGip6e_o/edit?usp=sharing)
+- [Documentação Teste Tricentis](https://docs.google.com/document/d/1iaXEmAavwku8L1nhG6twz2wRjT8BFs9WmtZbjM7L7WI/edit?usp=sharing)
 
 ## 🔖&nbsp; Sobre
 
