@@ -1,0 +1,36 @@
+- Casos de testes utilizando a a escrita Gherkin
+    Given: Dado (condição)
+    When: Quando (ação)
+    Then: Então (resultado da ação)
+    And: e (adição)
+
+Cenário: Testando aplicação Tricentis.
+
+Caso de Teste: Acessar aplicação Tricentis
+
+	Given que possuo o link da URL
+	And crio o projeto do teste no VsCode e o mesmo automatizado na ide Cypress
+	When acesso o navegador com o link
+	Then posso visualizar a página da Tricentis 
+	
+	
+Caso de Teste: Preencher todos os campos do formulário e enviar
+
+    Given que estou na página da Tricentis
+	When preencho todos os campos obrigatórios do formulário
+	Then posso enviar o formulário
+
+
+Caso de Teste: Exibe mensagem de erro ao tentar submeter o formulário sem preencher os campos obrigatórios
+
+	Given que estou na página da Tricentis
+	When não preencho todos os campos obrigatórios do formulário
+	Then sistema não permite envio do formulário e informa necessidade de preenchimento dos campos obrigatórios
+
+
+Caso de Teste: Exibe mensagem de erro ao submeter o formulário com um site com formatação inválida
+
+	Given que estou na página da Tricentis
+	When não preencho o campo Website com uma formatação válida
+	Then sistema informa que deve ser um URL válido e campo fica sinalizado em vermelho
+

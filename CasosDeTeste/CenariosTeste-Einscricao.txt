@@ -1,0 +1,115 @@
+
+- Casos de testes utilizando a a escrita Gherkin
+    Given: Dado (condição)
+    When: Quando (ação)
+    Then: Então (resultado da ação)
+    And: e (adição)
+
+Cenário: Testando aplicação E-Inscrição.
+
+Caso de Teste: Acessar aplicação E-Inscrição.
+
+    Given que realizo o download do arquivo TESTE_QA_2023.pdf
+    And ao copiar o link: (https://checkout.einscricao.app/?event_id=75524&apiUrl=https://www.e-inscricao.com&msApiUrl=https://safe2pay-paymentflow.einscricao.workers.dev/&LOG=false&receiptUrl=https://recibo.e-inscricao.tech&apiParticipantsUrl=https://ei-mysql-readonly.raise.workers.dev)
+    When criado o projeto do teste no VsCode e o mesmo automatizado na ide Cypress
+    Then ao acessar o link disponibilizado, a tela da página E-Inscrição é apresentada com sucesso.
+
+ Caso de Teste: Adicionando ticket.
+
+	Given que estou na página E- Inscrição 
+	When adiciono um ticket e clico em Continuar
+	Then sistema me redireciona para tela de check-out
+
+
+Caso de Teste: Criar conta e utilizar participante cadastrado.
+
+	Given que estou na página E- Inscrição 
+	When crio uma conta e seleciono o participante criado
+	Then finalizo o cadastro e sistema exibe confirmação do pedido
+
+
+Caso de Teste: Acessar um usuário já cadastrado e utilizar participante cadastrado.
+
+	Given que estou na página E- Inscrição 
+	When acesso o login e preencho os dados de um usuário já cadastrado
+	Then finalizo o cadastro e sistema exibe confirmação do pedido
+
+
+Caso de Teste: Adicionado um novo participante.
+
+	Given que estou na página E- Inscrição 
+    And crio uma conta 
+	When seleciono um novo participante 
+    Then finalizo o cadastro e sistema exibe confirmação do pedido
+
+Caso de Teste: Remover participante já cadastrado e cadastrar um novo participante.
+
+	Given que estou na página E- Inscrição 
+	And acesso a página de login com um usuário já cadastrado
+    When clico em remover participante e cadastro um novo participante 
+    Then finalizo o cadastro e sistema exibe confirmação do pedido
+
+Caso de Teste: Acessar a aplicação sem criar conta.
+
+	Given que estou na página E- Inscrição 
+	And clico em Continuar sem Conta
+    When preencho os dados do participante
+    Then finalizo o cadastro e sistema exibe confirmação do pedido
+
+Caso de Teste: Testar funcionalidade do botão "Esqueci Minha Senha".
+
+	Given que estou na página E- Inscrição 
+	And acesso login e preencho os dados de um usuário já cadastrado
+	When clico no botão "Esqueci minha senha" e preencho o campo email
+	Then sistema dispara um email e sinaliza com a mensagem "Instruções enviadas por email".
+
+
+Caso de Teste:Testar inserindo CPF inválido, sistema deve sinalizar.
+
+	Given que estou na página E- Inscrição 
+	When preencho o campo "Número" com um CPF inválido
+    Then sistema exibe mensagem em vermelho "CPF Inválido"
+
+Caso de Teste: Testar inserindo email inválido, sistema deve sinalizar.
+
+	Given que estou na página E- Inscrição 
+	When preencho o campo "Email" com formatação inválida
+    Then sistema exibe mensagem em vermelho "Email Inválido"
+
+Caso de Teste: Testar criar conta sem preencher os campos obrigatórios, sistema deve sinalizar.
+
+	Given que estou na página E- Inscrição 
+	When não preencho nenhum campo obrigatório e tento criar conta
+    Then sistema exibe mensagem em vermelho sinalizando todos os campos obrigatórios
+
+Caso de Teste: Testar finalizando pedido e salvando comprovante.
+
+	Given que estou na página E- Inscrição 
+	And crio uma conta e seleciono o participante criado
+    hen clico em "Salvar Comprovante"
+    Then sistema realiza o download do comprovante
+
+Caso de Teste: Testar finalizando pedido e clicando em minhas aplicações.
+
+	Given que estou na página E- Inscrição 
+	And crio uma conta e seleciono o participante criado
+    When clico em "Ver Minhas Aplicações"
+    Then sistema abre uma nova aba no cypress confirmando inscrição 
+
+Caso de Teste: Testar avaliando experiência durante inscrição.
+
+	Given que estou na página E- Inscrição 
+	And crio uma conta e seleciono o participante criado
+    When avalio a experiência na página de confirmação do pedido
+    Then sistema informa mensagem "Obrigado por compartilhar sua experiência conosco!"
+
+
+
+
+
+
+
+
+
+
+
