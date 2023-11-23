@@ -30,7 +30,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [Cypress](https://www.cypress.io/)
 - [VsCode](https://code.visualstudio.com/)
 - [NodeJs](https://nodejs.org/en)
-- [Java Script](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ---
 
