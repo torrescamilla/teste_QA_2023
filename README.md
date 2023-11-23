@@ -86,16 +86,29 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ```bash
 
-    # Clonar o repositório
+    # Clonar o repositório via HTTPS
     $ git clone git@github.com:torrescamilla/teste_QA_2023.git
 
-    # Instalar Cypress e dependências no projeto
-    $ npm install cypress --save-dev
+    # (OBS: Node.js e Cypress já instalados no projeto)
 
-    # Iniciar o Cypress
+    # Iniciar o Cypress 
     $ npx cypress open
 ```
 
+```bash
+    
+    # Clonar o repositório via Download ZIP
+    $ clicar em Download ZIP
+
+    # Extrair pasta ZIP
+    $ Acessar a pasta teste_QA_2023-main
+    $ Abrir a pasta teste_QA_2023-main no VS Code. Ex:/Downloads/teste_QA_2023-main/teste_QA_2023-main 
+    
+    # (OBS: Node.js e Cypress já instalados no projeto)
+
+    # Iniciar o Cypress 
+    $ npx cypress open
+```
 ---
 
 Desenvolvido por Camilla Torres de Jesus.
