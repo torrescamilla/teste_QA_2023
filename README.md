@@ -1,7 +1,7 @@
 
 <p align="center">
  <picture>
-    <img alt="Cypress Logo" src="./assets/logo.png">
+    <img alt="Cypress Logo" src="./assets/logo.jpg">
   </picture> 
 </p>
 
