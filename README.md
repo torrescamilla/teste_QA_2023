@@ -101,8 +101,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     $ clicar em Download ZIP
 
     # Extrair pasta ZIP
-    $ Acessar a pasta teste_QA_2023-main
-    $ Abrir a pasta teste_QA_2023-main no VS Code. Ex:/Downloads/teste_QA_2023-main/teste_QA_2023-main 
+    $ acessar a pasta teste_QA_2023-main
+    $ abrir a pasta teste_QA_2023-main no VS Code. Ex:/Downloads/teste_QA_2023-main/teste_QA_2023-main 
     
     # (OBS: Node.js e Cypress já instalados no projeto)
 
