@@ -86,6 +86,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ```bash
 
+    # Necessário ter o Node JS v18.15.0 (ou versão mais recente)
+    $ Download node: https://nodejs.org/en/download/current
+
     # Clonar o repositório via HTTPS
     $ git clone git@github.com:torrescamilla/teste_QA_2023.git
 
